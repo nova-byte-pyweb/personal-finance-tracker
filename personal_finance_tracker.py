@@ -609,7 +609,7 @@ load_data()
 while True:
     show_menu()
 
-    choice = input("Enter your choice (0-7): ")
+    choice = input("Enter your choice (0-9): ")
 
     if choice == "1":
         add_income()
